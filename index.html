@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet" />
+</head>
+<body>
+    <div class="warning">
+        <p><strong class="bold-attention">ATENÇÃO:</strong> Esse vídeo ficará disponível até <span id="current-date"></span></p>
+    </div>
+    <div class="return-message" id="return-message">
+        <p>Você já começou a assistir esse vídeo</p>
+        <button id="continue-watching">▶️ Continuar assistindo?</button>
+        <button id="start-over">↩️ Assistir do início?</button>
+    </div>
+    <div class="video-container" id="video-container">
+        <video id="video" width="300" height="533" muted>
+            <source src="files/videobot-comprimido.mp4" type="video/mp4">
+            Seu navegador não suporta o elemento de vídeo.
+        </video>
+        <div class="mute-overlay" id="mute-overlay">
+            <img src="files/botao-mute.png" alt="Mute Icon" class="icon">
+            <div class="text">CLIQUE PARA OUVIR</div>
+        </div>
+    </div>
+    <div class="viewer-count">
+        <p><strong class="bold-attention"><span id="viewer-count">811</span> pessoas</strong> estão assistindo</p>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>

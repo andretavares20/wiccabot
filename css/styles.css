@@ -1,0 +1,95 @@
+/* styles.css */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.warning {
+    background-color: #d50000;
+    width: 100%;
+    text-align: center;
+    font-size: 1.7em;
+    font-weight: bold;
+    margin-bottom: 40px; /* Aumente este valor para mais espaçamento */
+    color: white; /* Cor do texto branco para contraste */
+}
+
+.bold-attention {
+    font-weight: 900; /* Maior peso para o "ATENÇÃO" */
+}
+
+.return-message {
+    display: none; /* Inicialmente oculto */
+    text-align: center;
+    margin-top: 20px;
+}
+
+.return-message p {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.return-message button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.video-container {
+    position: relative;
+    margin-top: 20px;
+}
+
+video {
+    width: 100%; /* Ajuste a largura desejada */
+    height: 700px; /* Ajuste a altura desejada */
+    object-fit: contain; /* Ajusta o vídeo para caber no contêiner */
+    background-color: black; /* Adiciona um fundo preto para evitar bordas brancas */
+}
+
+.mute-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 150px; /* Ajuste a largura */
+    height: 150px; /* Ajuste a altura */
+    background-color: #ffc107; /* Cor de fundo similar à imagem fornecida */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px; /* Borda arredondada */
+    cursor: pointer;
+    text-align: center;
+}
+
+.mute-overlay .icon {
+    width: 50px; /* Ajuste a largura da imagem do ícone */
+    height: 50px; /* Ajuste a altura da imagem do ícone */
+    margin-bottom: 10px;
+}
+
+.mute-overlay .text {
+    font-size: 1em;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.viewer-count {
+    /* margin-top: 20px; */
+    font-size: 1.7em;
+    text-align: center;
+}
+
+.viewer-count .count {
+    font-weight: bold;
+}
