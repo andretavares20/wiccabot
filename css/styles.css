@@ -45,7 +45,7 @@ body {
 
 .video-container {
     position: relative;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 video {
@@ -86,7 +86,7 @@ video {
 
 .viewer-count {
     /* margin-top: 20px; */
-    font-size: 1.7em;
+    font-size: 1.6em;
     text-align: center;
 }
 
@@ -132,4 +132,22 @@ video {
 .app-links img {
     width: 150px;  /* Ajuste a largura desejada */
     height: auto;  /* Mantém a proporção da altura automaticamente */
+}
+
+#acquire-license-button {
+    background-color: #28a745; /* Cor de fundo verde */
+    color: white; /* Cor do texto */
+    font-size: 1.5em; /* Tamanho da fonte */
+    font-weight: bold; /* Negrito */
+    padding: 15px 30px; /* Espaçamento interno */
+    border: none; /* Remover borda */
+    border-radius: 5px; /* Bordas arredondadas */
+    cursor: pointer; /* Cursor de ponteiro ao passar o mouse */
+    text-align: center; /* Alinhar o texto no centro */
+    display: inline-block; /* Exibição inline-block */
+    margin-top: 20px; /* Espaçamento superior */
+}
+
+#acquire-license-button:hover {
+    background-color: #218838; /* Cor de fundo verde mais escura ao passar o mouse */
 }
