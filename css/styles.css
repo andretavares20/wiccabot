@@ -93,3 +93,43 @@ video {
 .viewer-count .count {
     font-weight: bold;
 }
+
+.message-below-video {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: white;
+}
+
+.app-links {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.app-links a {
+    margin: 0 10px;
+}
+.footer {
+    margin-top: 20px;
+    margin-bottom: 160px; /* Adiciona espaçamento abaixo do footer */
+    text-align: center;
+    font-size: 0.8em;
+    color: white;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.app-links img {
+    width: 150px;  /* Ajuste a largura desejada */
+    height: auto;  /* Mantém a proporção da altura automaticamente */
+}

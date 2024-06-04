@@ -29,7 +29,7 @@ function updateViewerCount() {
 }
 
 // Atualiza o número de espectadores a cada 3 segundos
-setInterval(updateViewerCount, 3000);
+setInterval(updateViewerCount, 2000);
 
 // Verifica se o usuário já começou a assistir o vídeo
 if (localStorage.getItem('videoStarted')) {
