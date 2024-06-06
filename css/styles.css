@@ -146,8 +146,10 @@ video {
     text-align: center; /* Alinhar o texto no centro */
     display: inline-block; /* Exibição inline-block */
     margin-top: 20px; /* Espaçamento superior */
+    transition: transform 0.3s ease; /* Transição suave para o efeito de zoom */
 }
 
 #acquire-license-button:hover {
     background-color: #218838; /* Cor de fundo verde mais escura ao passar o mouse */
+    transform: scale(1.05); /* Aumenta ligeiramente o tamanho */
 }

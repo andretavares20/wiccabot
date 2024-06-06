@@ -64,3 +64,7 @@ document.getElementById('start-over').addEventListener('click', function() {
     video.currentTime = 0; // Recomeçar o vídeo do início
     video.play(); // Reproduzir o vídeo
 });
+
+document.getElementById('acquire-license-button').addEventListener('click', function() {
+    window.location.href = 'https://pay.hotmart.com/X93432140A';
+});
