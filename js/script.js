@@ -66,5 +66,5 @@ document.getElementById('start-over').addEventListener('click', function() {
 });
 
 document.getElementById('acquire-license-button').addEventListener('click', function() {
-    window.location.href = 'https://pay.hotmart.com/X93432140A';
+    window.location.href = 'https://pay.hotmart.com/D93472187V';
 });
